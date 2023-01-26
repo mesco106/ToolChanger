@@ -8,15 +8,15 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/manescob/ResearchProjects/ToolChanger/Prototype1/include",
-                "/home/manescob/ResearchProjects/ToolChanger/Prototype1/src",
-                "/home/manescob/ResearchProjects/ToolChanger/Prototype1/.pio/libdeps/adafruit_qt_py_m0/Adafruit NeoPixel",
+                "/home/manescob/ARC/ToolChanger/Prototype1/include",
+                "/home/manescob/ARC/ToolChanger/Prototype1/src",
                 "/home/manescob/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
                 "/home/manescob/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
                 "/home/manescob/.platformio/packages/framework-arduino-samd-adafruit/cores/arduino",
                 "/home/manescob/.platformio/packages/framework-arduino-samd-adafruit/libraries/Adafruit_TinyUSB_Arduino/src/arduino",
                 "/home/manescob/.platformio/packages/framework-cmsis/CMSIS/DSP/Include",
                 "/home/manescob/.platformio/packages/framework-arduino-samd-adafruit/variants/qtpy_m0",
+                "/home/manescob/ARC/ToolChanger/Prototype1/.pio/libdeps/adafruit_qt_py_m0/Adafruit NeoPixel",
                 "/home/manescob/.platformio/packages/framework-arduino-samd-adafruit/libraries/Adafruit_TinyUSB_Arduino/src",
                 "/home/manescob/.platformio/packages/framework-arduino-samd-adafruit/libraries/Adafruit_ZeroDMA",
                 "/home/manescob/.platformio/packages/framework-arduino-samd-adafruit/libraries/Adafruit_ZeroDMA/utility",
@@ -34,15 +34,15 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/manescob/ResearchProjects/ToolChanger/Prototype1/include",
-                    "/home/manescob/ResearchProjects/ToolChanger/Prototype1/src",
-                    "/home/manescob/ResearchProjects/ToolChanger/Prototype1/.pio/libdeps/adafruit_qt_py_m0/Adafruit NeoPixel",
+                    "/home/manescob/ARC/ToolChanger/Prototype1/include",
+                    "/home/manescob/ARC/ToolChanger/Prototype1/src",
                     "/home/manescob/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
                     "/home/manescob/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
                     "/home/manescob/.platformio/packages/framework-arduino-samd-adafruit/cores/arduino",
                     "/home/manescob/.platformio/packages/framework-arduino-samd-adafruit/libraries/Adafruit_TinyUSB_Arduino/src/arduino",
                     "/home/manescob/.platformio/packages/framework-cmsis/CMSIS/DSP/Include",
                     "/home/manescob/.platformio/packages/framework-arduino-samd-adafruit/variants/qtpy_m0",
+                    "/home/manescob/ARC/ToolChanger/Prototype1/.pio/libdeps/adafruit_qt_py_m0/Adafruit NeoPixel",
                     "/home/manescob/.platformio/packages/framework-arduino-samd-adafruit/libraries/Adafruit_TinyUSB_Arduino/src",
                     "/home/manescob/.platformio/packages/framework-arduino-samd-adafruit/libraries/Adafruit_ZeroDMA",
                     "/home/manescob/.platformio/packages/framework-arduino-samd-adafruit/libraries/Adafruit_ZeroDMA/utility",
@@ -59,7 +59,7 @@
                 ]
             },
             "defines": [
-                "PLATFORMIO=60105",
+                "PLATFORMIO=60106",
                 "ARDUINO_QTPY_M0",
                 "CRYSTALLESS",
                 "ADAFRUIT_QTPY_M0",
