@@ -1,4 +1,5 @@
 #include "Arduino.h"
+#include "Vector.h"
 
 class Setup {
     public:
@@ -32,14 +33,33 @@ class Setup {
 };
 class HardwareControl{
     public:
-        unsigned long Position = 0;
+    
+        uint16_t Position = 0;
+        unsigned long timer = micros();
+        unsigned long DeltaTime = 0;
+        unsigned long previousTime = 0;
 
         uint16_t EncoderPosition(const uint8_t &GPIO_ATTACHED_TO_ENCODER){
             Position = pulseIn(GPIO_ATTACHED_TO_ENCODER, HIGH); 
             return Position;
         }
 
-    private:
+        void TurnRight(){
+            digitalWrite(Setup->Relay1, HIGH);
+            digitalWrite(Relay2, HIGH);
+            digitalWrite(Relay3, HIGH);
+            digitalWrite(Relay4, HIGH);
+        }
+
+        void TurnShaft(bool Direction){
+            //if (Direction == True)
+
+        }
+        void delay(uint64_t time){
+
+        }
+
+    
 
 
 };
