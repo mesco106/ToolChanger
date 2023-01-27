@@ -8,8 +8,8 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/manescob/ResearchProjects/ToolChanger/PID/include",
-                "/home/manescob/ResearchProjects/ToolChanger/PID/src",
+                "/home/manescob/ARC/ToolChanger/PID/include",
+                "/home/manescob/ARC/ToolChanger/PID/src",
                 "/home/manescob/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "/home/manescob/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
                 "/home/manescob/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
@@ -22,8 +22,8 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/manescob/ResearchProjects/ToolChanger/PID/include",
-                    "/home/manescob/ResearchProjects/ToolChanger/PID/src",
+                    "/home/manescob/ARC/ToolChanger/PID/include",
+                    "/home/manescob/ARC/ToolChanger/PID/src",
                     "/home/manescob/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "/home/manescob/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
                     "/home/manescob/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
@@ -35,7 +35,7 @@
                 ]
             },
             "defines": [
-                "PLATFORMIO=60105",
+                "PLATFORMIO=60106",
                 "ARDUINO_AVR_NANO",
                 "F_CPU=16000000L",
                 "ARDUINO_ARCH_AVR",
